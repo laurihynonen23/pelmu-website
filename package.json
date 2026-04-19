@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "publish-content": "node --env-file=.env.local scripts/publish-content.mjs"
   },
   "dependencies": {
     "@vercel/blob": "^2.3.3",
